@@ -1,0 +1,87 @@
+html {
+  font-family: 'Kreon', serif;}
+
+body {
+  text-align: center;
+  margin: 0;
+  background-color: #fef4f4;
+}
+
+form {
+  text-align: left;
+  max-width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  background-color: #f6bfbc;
+  padding: 30px 20px;
+  box-shadow: 2px 2px 5px green;
+}
+
+#name-label, #name, #email-label, #email,
+#number-label, #number, #dropdown, #chekcbox {
+  display:block ;
+}
+
+.question {
+  margin-bottom: 5px;
+}
+
+#name, #email, #number, #dropdown {
+  padding: 7px;
+  width: 50%;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  border: 1px solid #39464e;
+  display: block;
+}
+
+#name:focus, #email:focus, #number:focus, #dropdown:focus {
+  background-color: #eaf4fc;
+  border-radius: 4px;
+  border: 1px solid #39464e;
+}
+
+#checkbox > span, #radio-btn > span {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+#checkbox > label, #radio-btn > label {
+  display: block;
+  margin-left: 3px;
+  margin-bottom: 5px;
+}
+
+#checkbox, #radio-btn {
+  margin-bottom: 20px;
+}
+
+textarea {
+  margin-left: 15px;
+}
+
+button {
+  width: 50%;
+  background-color: #80aba9;
+  border-radius: 4px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  color: #fff;
+  border: 1px solid #00a381;
+}
+
+button:hover {
+  animation-name: button;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes button {
+  100% {
+    opacity: 0.7;
+    color: #000;
+    border: 1px solid #80aba9;
+  }
+}
